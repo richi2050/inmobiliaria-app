@@ -6,6 +6,7 @@ import { MuiThemeProvider, Grid } from '@material-ui/core';
 import theme from './theme/theme';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import AppNavbar from './componentes/layout/AppNavbar';
+import RegistrarUsuario from './componentes/seguridad/RegistrarUsuario';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Grid container>
           <Switch>
           <Route path='/' exact component={ListaInmuebles} ></Route>
+          <Route path='/auth' exact component={RegistrarUsuario} ></Route>
 
           </Switch>
         </Grid>

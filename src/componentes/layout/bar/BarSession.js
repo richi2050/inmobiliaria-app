@@ -29,7 +29,7 @@ const styles = theme =>({
                     <i className='material-icons'>menu</i>
                   </IconButton>
                     <Typography variant='h6'>
-                        VXI HOME
+                        HOME
                     </Typography>
                     <div className={classes.grow}></div>
                     <div className={classes.sectionDesktop}>
